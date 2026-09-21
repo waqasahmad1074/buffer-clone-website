@@ -1,0 +1,1390 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet">
+</head>
+<body>
+ <nav class="sticky top-0 z-50 flex items-center justify-between bg-white px-8 py-4 md:px-16 lg:px-24">
+
+  <!-- logo -->
+  <a href="#" class="flex shrink-0 items-center gap-2">
+    <img
+      src="images/24.png"
+      alt="Buffer logo"
+      class="h-10 w-10 object-contain"
+    />
+
+    <span class="text-4xl font-bold text-[#B0EC9C] [-webkit-text-stroke:1px_#36454F]">
+      Buffer
+    </span>
+  </a>
+
+
+  <!-- navi -->
+  <ul class="hidden items-center gap-8 lg:flex">
+    <li>
+      <a href="#" class="text-lg font-medium text-[#36454F] hover:text-[#B0EC9C]">
+        Features
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-lg font-medium text-[#36454F] hover:text-[#B0EC9C]">
+        Integrations
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-lg font-medium text-[#36454F] hover:text-[#B0EC9C]">
+        Made for
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-lg font-medium text-[#36454F] hover:text-[#B0EC9C]">
+        Resources
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-lg font-medium text-[#36454F] hover:text-[#B0EC9C]">
+        Pricing
+      </a>
+    </li>
+  </ul>
+
+
+  <!-- buttons -->
+  <div class="ml-auto flex shrink-0 items-center gap-3 lg:ml-0">
+    <button
+      class="rounded-full border border-[#B0EC9C] bg-white px-6 py-2 text-lg text-[#36454F]"
+    >
+      Log in
+    </button>
+
+    <button
+      class="rounded-full bg-[#B0EC9C] px-6 py-2 text-lg text-white"
+    >
+      Get started for free
+    </button>
+  </div>
+
+</nav>
+
+
+<!-- background image -->
+  <section 
+    class="min-h-screen bg-cover bg-center"
+    style="background-image: url('./images/1.png');">
+    
+<!-- small images on bg image -->
+
+  <div class="absolute top-5 left-[9%]
+      flex h-14 w-14 items-center justify-center
+      rounded-md bg-white shadow-sm border border-gray-100">
+      <div class="flex h-7 w-7 items-center justify-center
+      rounded-full bg-gradient-to-br from-cyan-400 to-purple-400
+      text-white font-bold">
+                
+      </div>
+      </div>
+
+
+        <!-- X -->
+        <div class="absolute top-5 left-[26%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-x-twitter text-3xl text-gray-800"></i>
+        </div>
+
+
+        <!-- Bluesky -->
+        <div class="absolute top-5 right-[23%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-bluesky text-3xl text-blue-500"></i>
+        </div>
+
+
+        <!-- YouTube -->
+        <div class="absolute top-32 left-[9%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-youtube text-3xl text-red-500"></i>
+        </div>
+
+
+        <!-- Pinterest -->
+        <div class="absolute top-36 right-[8%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-pinterest text-3xl text-red-500"></i>
+        </div>
+
+
+        <!-- LinkedIn -->
+        <div class="absolute top-[45%] left-[13%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-linkedin text-3xl text-blue-600"></i>
+        </div>
+
+
+        <!-- Zapier -->
+        <div class="absolute top-[38%] left-[23%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <span class="text-2xl text-orange-400">✳</span>
+        </div>
+
+
+        <!-- Dropbox -->
+        <div class="absolute bottom-[8%] right-[43%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-dropbox text-3xl text-blue-500"></i>
+        </div>
+
+
+        <!-- Instagram -->
+        <div class="absolute bottom-[14%] left-[23%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-instagram text-3xl text-pink-500"></i>
+        </div>
+
+
+        <!-- TikTok -->
+        <div class="absolute bottom-[6%] left-[39%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-tiktok text-3xl text-black"></i>
+        </div>
+
+
+        <!-- Facebook -->
+        <div class="absolute bottom-[32%] right-[11%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-facebook text-3xl text-blue-500"></i>
+        </div>
+
+
+        <!-- Threads -->
+        <div class="absolute top-[45%] right-[18%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <i class="fa-brands fa-threads text-3xl text-gray-800"></i>
+        </div>
+
+
+        <!-- ChatGPT -->
+        <div class="absolute top-[45%] right-[4%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C]shadow-sm border border-gray-100">
+            <span class="text-2xl text-gray-500">◎</span>
+        </div>
+
+
+        <!-- Google Drive -->
+        <div class="absolute bottom-[14%] left-[5%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <span class="text-2xl">🔺</span>
+        </div>
+
+
+        <!-- Zapier bottom -->
+        <div class="absolute bottom-[10%] right-[8%]
+                    flex h-14 w-14 items-center justify-center
+                    rounded-md bg-[#B0EC9C] shadow-sm border border-gray-100">
+            <div class="bg-orange-400 text-white text-xs px-1 py-2">
+                zapier
+            </div>
+        </div>
+
+
+        <!-- heading&input -->
+
+        <div class="relative z-10 flex min-h-screen items-center justify-center">
+
+            <div class="w-full max-w-4xl px-6 text-center">
+
+                <!-- Heading -->
+                <h1 class="mx-auto max-w-3xl
+                           text-5xl font-normal leading-tight
+                           text-slate-800
+                           md:text-6xl lg:text-7xl">
+
+                    Your social media
+                    <br>
+                    workspace
+
+                </h1>
+
+
+                <!-- Description -->
+                <p class="mx-auto mt-8 max-w-lg
+                          text-xl leading-8
+                          text-slate-800">
+
+                    Works with every platform you
+                    <br class="hidden sm:block">
+
+                    post to, and plugs into your
+                    <br class="hidden sm:block">
+
+                    favorite tools
+
+                </p>
+
+
+                <!-- Email Form -->
+                <div class="mx-auto mt-9 flex max-w-[630px]
+                            flex-col overflow-hidden rounded-full
+                            border border-gray-500 bg-white p-1
+                            shadow-md
+                            sm:flex-row">
+
+                    <!-- Input -->
+                    <input
+                        type="email"
+                        placeholder="Enter your email..."
+                        class="h-14 flex-1 rounded-full
+                               px-7 text-base
+                               outline-none
+                               placeholder:text-gray-500"
+                    >
+
+                    <!-- Button -->
+                    <button
+                        class="h-14 rounded-full
+                               bg-[#a9ed91]
+                               px-7 text-base
+                               text-gray-800
+                               transition
+                               hover:bg-[#96e47d]">
+
+                        Get started for free
+
+                        <span class="ml-2 text-xl">→</span>
+
+                    </button>
+
+                </div>
+
+
+                <!-- Terms -->
+                <p class="mt-4 text-xs text-gray-500">
+
+                    By entering your email, you agree to receive emails from Buffer.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+<section class="py-6 bg-white">
+
+  <!-- hr text -->
+  <div class="flex items-center gap-5 px-20">
+
+    <div class="h-[1px] bg-gray-300 flex-1"></div>
+
+    <p class="text-gray-500 text-lg">
+      266,274 creators, brands, and agencies using Buffer
+    </p>
+
+    <div class="h-[1px] bg-gray-300 flex-1"></div>
+
+  </div>
+
+
+  <!-- marquee images -->
+  <div class="mt-7">
+
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+
+      <div class="flex items-center gap-16">
+
+        <img src="images/3.jpg" class="w-28 h-auto opacity-60">
+
+        <img src="images/4.png" class="w-32 h-auto opacity-60">
+
+        <img src="images/5.png" class="w-36 h-auto opacity-60">
+
+        <img src="images/6.png" class="w-28 h-auto opacity-60">
+
+        <img src="images/7.png" class="w-36 h-auto opacity-60">
+
+        <img src="images/8.png" class="w-24 h-auto opacity-60">
+
+        <img src="images/9.png" class="w-28 h-auto opacity-60">
+
+        <img src="images/10.png" class="w-28 h-auto opacity-60">
+
+        <img src="images/11.png" class="w-32 h-auto opacity-60">
+
+      </div>
+
+    </marquee>
+
+  </div>
+
+</section>
+
+<div class="max-w-7xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
+
+  <!-- FIRST CARD -->
+  <div class="group bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-200">
+
+    <!-- Purple Image -->
+    <div class="bg-purple-300 p-6 h-[470px] flex items-center justify-center overflow-hidden">
+      <img
+        src="images/12.png"
+        alt="Publish"
+        class="w-full h-full object-contain
+               transition-transform duration-500 ease-out
+               group-hover:scale-105"
+      />
+    </div>
+
+    <!-- Text -->
+    <div class="p-5">
+
+      <p class="text-[#B0EC9C] font-semibold text-sm mb-5">
+        PUBLISH
+      </p>
+
+      <h2 class="text-2xl text-gray-700 mb-6">
+        The most complete set of publishing integrations, ever
+      </h2>
+
+      <p class="text-gray-600 text-lg leading-7">
+        Schedule your content to the most popular platforms including
+        Facebook, Instagram, TikTok, LinkedIn, Threads, Bluesky,
+        YouTube Shorts, Pinterest and more.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- SECOND CARD -->
+  <div class="group bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-200">
+
+    <!-- Green Image -->
+    <div class="bg-green-300 p-6 h-[470px] flex items-center justify-center overflow-hidden">
+      <img
+        src="images/13.png"
+        alt="Create"
+        class="w-full h-full object-contain
+               transition-transform duration-500 ease-out
+               group-hover:scale-105"
+      />
+    </div>
+
+    <!-- Text -->
+    <div class="p-5">
+
+      <p class="text-[#B0EC9C] font-semibold text-sm mb-5">
+        CREATE
+      </p>
+
+      <h2 class="text-2xl text-gray-700 mb-6">
+        Turn any idea into the perfect post
+      </h2>
+
+      <p class="text-gray-600 text-lg leading-7">
+        Whether you're flying solo or working with a team, Buffer has
+        all the features to help you create, organize, and repurpose
+        your content for any channel.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+
+  <!-- THIRD CARD -->
+  <div class="group bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-200">
+
+    <div class="bg-[#FFD88A] p-6 h-[470px] flex items-center justify-center overflow-hidden">
+      <img
+        src="images/12.png"
+        alt="Community"
+        class="w-full h-full object-contain
+               transition-transform duration-500 ease-out
+               group-hover:scale-105"
+      />
+    </div>
+
+    <!-- Text -->
+    <div class="p-5">
+
+      <p class="text-[#B0EC9C] font-semibold text-sm mb-5">
+        COMMUNITY
+      </p>
+
+      <h2 class="text-2xl text-gray-700 mb-6">
+        The most complete set of publishing integrations, ever
+      </h2>
+
+      <p class="text-gray-600 text-lg leading-7">
+        Schedule your content to the most popular platforms including
+        Facebook, Instagram, TikTok, LinkedIn, Threads, Bluesky,
+        YouTube Shorts, Pinterest and more.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- FOURTH CARD -->
+  <div class="group bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-200">
+
+    <div class="bg-[#ADDAFF] p-6 h-[470px] flex items-center justify-center overflow-hidden">
+      <img
+        src="images/13.png"
+        alt="Insights"
+        class="w-full h-full object-contain
+               transition-transform duration-500 ease-out
+               group-hover:scale-105"
+      />
+    </div>
+
+    <!-- Text -->
+    <div class="p-5">
+
+      <p class="text-[#B0EC9C] font-semibold text-sm mb-5">
+        INSIGHTS
+      </p>
+
+      <h2 class="text-2xl text-gray-700 mb-6">
+        Turn any idea into the perfect post
+      </h2>
+
+      <p class="text-gray-600 text-lg leading-7">
+        Whether you're flying solo or working with a team, Buffer has
+        all the features to help you create, organize, and repurpose
+        your content for any channel.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+    <section class="mt-24 px-5">
+
+    <!-- heading -->
+    <h2 class="text-center text-4xl md:text-5xl font-normal text-gray-800 mb-10">
+      ...and so much more!
+    </h2>
+
+
+    <!-- cards -->
+   <div class="max-w-[1450px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+  <!-- CARD 1 -->
+  <div class="group bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden p-2">
+
+    <div class="bg-red-200 rounded-xl h-[260px] overflow-hidden">
+      <img
+        src="images/14.png"
+        alt="Collaborate"
+        class="w-full h-full object-contain
+               transition-transform duration-500 ease-out
+               group-hover:scale-105"
+      >
+    </div>
+
+    <div class="p-2 pt-4">
+      <h3 class="text-xl text-gray-700 mb-4">
+        Collaborate
+      </h3>
+
+      <p class="text-lg text-gray-600 leading-7 mb-5">
+        Manage, edit, and approve social media posts from your team.
+      </p>
+
+      <a href="#" class="text-gray-700 underline text-base">
+        Learn more →
+      </a>
+    </div>
+
+  </div>
+
+
+  <!-- CARD 2 -->
+  <div class="group bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden p-2">
+
+    <div class="bg-purple-200 rounded-xl h-[260px] overflow-hidden">
+      <img
+        src="images/15.png"
+        alt="Mobile app"
+        class="w-full h-full object-contain
+               transition-transform duration-500 ease-out
+               group-hover:scale-105"
+      >
+    </div>
+
+    <div class="p-2 pt-4">
+      <h3 class="text-xl text-gray-700 mb-4">
+        Mobile app
+      </h3>
+
+      <p class="text-lg text-gray-600 leading-7 mb-5">
+        Manage your social media accounts from anywhere.
+      </p>
+
+      <a href="#" class="text-gray-700 underline text-base">
+        Learn more →
+      </a>
+    </div>
+
+  </div>
+
+
+  <!-- CARD 3 -->
+  <div class="group bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden p-2">
+
+    <div class="bg-orange-200 rounded-xl h-[260px] overflow-hidden">
+      <img
+        src="images/16.png"
+        alt="Start page"
+        class="w-full h-full object-contain
+               transition-transform duration-500 ease-out
+               group-hover:scale-105"
+      >
+    </div>
+
+    <div class="p-2 pt-4">
+      <h3 class="text-xl text-gray-700 mb-4">
+        Start page
+      </h3>
+
+      <p class="text-lg text-gray-600 leading-7 mb-5">
+        Turn your social bio into a powerful, personalized hub.
+      </p>
+
+      <a href="#" class="text-gray-700 underline text-base">
+        Learn more →
+      </a>
+    </div>
+
+  </div>
+
+
+  <!-- CARD 4 -->
+  <div class="group bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden p-2">
+
+    <div class="bg-cyan-200 rounded-xl h-[260px] overflow-hidden">
+      <img
+        src="images/17.png"
+        alt="AI assistant"
+        class="w-full h-full object-contain
+               transition-transform duration-500 ease-out
+               group-hover:scale-105"
+      >
+    </div>
+
+    <div class="p-2 pt-4">
+      <h3 class="text-xl text-gray-700 mb-4">
+        AI assistant
+      </h3>
+
+      <p class="text-lg text-gray-600 leading-7 mb-5">
+        Brainstorm ideas, rewrite content, and craft platform-specific posts.
+      </p>
+
+      <a href="#" class="text-gray-700 underline text-base">
+        Learn more →
+      </a>
+    </div>
+
+  </div>
+
+</div>
+
+  </section>
+  <!-- account section -->
+<section class="mt-16 px-5">
+
+  <div class="max-w-8xl mx-auto bg-[#f1f1eb] rounded-3xl px-8 py-7">
+
+    <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+
+      <!-- text -->
+      <h2 class="text-2xl text-gray-800">
+        Connect your favorite accounts
+      </h2>
+
+      <!-- icons -->
+      <div class="flex flex-wrap justify-center gap-8">
+
+        <!-- LinkedIn -->
+        <div class="group w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          in
+        </div>
+
+        <!-- Threads -->
+        <div class="group w-14 h-14 bg-black rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          @
+        </div>
+
+        <!-- Pinterest -->
+        <div class="group w-14 h-14 bg-red-600 rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          P
+        </div>
+
+        <!-- Bluesky -->
+        <div class="group w-14 h-14 bg-blue-500 rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          🦋
+        </div>
+
+        <!-- YouTube -->
+        <div class="group w-14 h-14 bg-red-600 rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          ▶
+        </div>
+
+        <!-- X -->
+        <div class="group w-14 h-14 bg-black rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          𝕏
+        </div>
+
+        <!-- Google -->
+        <div class="group w-14 h-14 bg-blue-500 rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          G
+        </div>
+
+        <!-- Instagram -->
+        <div class="group w-14 h-14 bg-pink-600 rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          ◎
+        </div>
+
+        <!-- Mastodon -->
+        <div class="group w-14 h-14 bg-indigo-500 rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          m
+        </div>
+
+        <!-- TikTok -->
+        <div class="group w-14 h-14 bg-black rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          ♪
+        </div>
+
+        <!-- Facebook -->
+        <div class="group w-14 h-14 bg-blue-600 rounded-xl flex items-center justify-center text-white text-2xl
+                    transition-transform duration-300 ease-out hover:scale-110">
+          f
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ai section -->
+<section class="mt-16 px-5">
+
+  <div class="max-w-8xl mx-auto bg-[#202727] rounded-3xl p-8 md:p-14">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+      <!-- left side -->
+      <div>
+
+        <p class="text-[#9bea82] font-semibold mb-4">
+          MCP · API · AGENTS
+        </p>
+
+        <h2 class="text-4xl md:text-5xl text-white font-normal leading-tight mb-5">
+          Plan, post, and learn, right
+          <br>
+          from your AI assistant
+        </h2>
+
+        <p class="text-white text-lg leading-7 max-w-xl mb-8">
+          Connect Buffer to Claude or ChatGPT and manage your whole workflow
+          from a conversation. Pull your performance data, plan content around
+          what's working, and send content straight to your queue.
+        </p>
+
+        <div class="text-white space-y-4 mb-10">
+
+          <p>
+            <b>Ask:</b>
+            “What were my top posts this month?” Your AI pulls real numbers from Buffer.
+          </p>
+
+          <p>
+            <b>Plan:</b>
+            Turn what’s working into next week’s content ideas.
+          </p>
+
+          <p>
+            <b>Post:</b>
+            Content lands in your Buffer queue, ready to post.
+          </p>
+
+        </div>
+
+        <!-- button -->
+        <div class="flex flex-wrap gap-4">
+
+          <button class="bg-[#a9ed91] text-gray-800 px-7 py-4 rounded-xl">
+            Learn more →
+          </button>
+
+          <button class="border border-white text-white px-7 py-4 rounded-xl">
+            Read documentation →
+          </button>
+
+        </div>
+
+      </div>
+
+
+      <!-- right side -->
+      <div class="bg-[#202727] border border-gray-700 p-10">
+
+        <div class="bg-[#111111] rounded-2xl p-10">
+
+          <h3 class="text-white text-3xl text-center mb-10">
+            🟠 Let’s noodle
+          </h3>
+
+          <div class="bg-[#202020] border border-gray-700 rounded-2xl p-5">
+
+            <p class="text-white text-lg mb-8">
+              Review the last 6 months of my posts in Buffer and tell
+            </p>
+
+            <div class="flex justify-between items-center">
+
+              <div class="flex gap-2 text-sm">
+                <span class="text-white">＋</span>
+                <span class="bg-gray-600 text-white px-3 py-1 rounded">
+                  Chat
+                </span>
+                <span class="text-gray-400 px-2 py-1">
+                  Cowork
+                </span>
+              </div>
+
+              <button class="bg-orange-500 text-white text-2xl w-12 h-12 rounded-lg">
+                ↑
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- customer sport -->
+<section class="mt-16 px-5">
+
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+    <!-- left side -->
+    <div>
+
+      <p class="text-sm font-medium text-gray-800 mb-5">
+        CUSTOMER SUPPORT
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-normal text-gray-800 mb-5">
+        Human support, worldwide
+      </h2>
+
+      <p class="text-lg text-gray-700 leading-7 mb-6 max-w-xl">
+        Our global Customer Advocacy team is spread across time zones to make
+        sure help is always nearby. Whether you have a quick question, need
+        technical support, or just want to connect, we're here for you — no bots,
+        just real people who care.
+      </p>
+
+      <!-- buttons -->
+      <div class="flex gap-3 mb-9">
+
+        <button class="bg-[#dff3d8] border border-gray-700 px-5 py-3 rounded-full">
+          Visit the Help Center
+        </button>
+
+        <button class="border border-gray-700 px-5 py-3 rounded-full">
+          Join Discord
+        </button>
+
+      </div>
+
+      <p class="text-lg text-gray-700 leading-7 mb-5 max-w-xl">
+        We prioritize customer connection as a company and you could end up
+        speaking with a teammate in any role at Buffer, from Marketers to Engineers.
+      </p>
+
+      <a href="#" class="text-gray-600 underline text-lg">
+        Learn more about our global team →
+      </a>
+
+    </div>
+
+
+    <!-- right side -->
+    <div>
+
+      <img
+        src="images/18.png"
+        alt="Customer support team"
+        class="w-full h-[450px] object-cover rounded-3xl"
+      >
+
+    </div>
+
+  </div>
+
+</section>
+<!-- resources -->
+<!-- RESOURCES -->
+<section class="mt-10 px-6">
+
+  <div class="flex items-center justify-between">
+    <div>
+      <p class="text-base font-semibold text-gray-500">RESOURCES</p>
+
+      <h1 class="mt-2 text-3xl font-bold text-gray-900">
+        Fuel your social media success
+      </h1>
+    </div>
+
+    <p class="text-sm text-gray-500">
+      Everything you need to level up your social strategy — in one place.
+    </p>
+  </div>
+
+
+  <!-- cards -->
+  <div class="mt-8 grid grid-cols-4 gap-4">
+
+    <!-- CARD 1 -->
+    <div class="group rounded-lg bg-purple-100 p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+        Free Marketing Tools
+      </h2>
+
+      <p class="mt-2 text-sm text-gray-600">
+        A collection of free tools to make your social media marketing easier.
+      </p>
+
+      <div class="mt-5 overflow-hidden rounded-lg">
+        <img
+          src="/images/22.png"
+          alt="Free Marketing Tools"
+          class="h-40 w-full rounded-lg object-cover
+                 transition-transform duration-500 ease-out
+                 group-hover:scale-105"
+        />
+      </div>
+    </div>
+
+
+    <!-- CARD 2 -->
+    <div class="group col-span-2 rounded-lg bg-teal-100 p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+        Social Media Glossary
+      </h2>
+
+      <p class="mt-2 text-sm text-gray-600">
+        A glossary of the most popular terms to help you make sense of the
+        social media landscape.
+      </p>
+
+      <div class="mt-5 overflow-hidden rounded-lg">
+        <img
+          src="/images/23.png"
+          alt="Social Media Glossary"
+          class="h-40 w-full rounded-lg object-cover
+                 transition-transform duration-500 ease-out
+                 group-hover:scale-105"
+        />
+      </div>
+    </div>
+
+
+    <!-- CARD 3 -->
+    <div class="group row-span-2 rounded-lg bg-yellow-100 p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+        Social Media Resources
+      </h2>
+
+      <p class="mt-2 text-sm text-gray-600">
+        A collection of articles and templates packed with tips, stories,
+        and insights to help your social media marketing game.
+      </p>
+
+      <div class="mt-5 overflow-hidden rounded-lg">
+        <img
+          src="/images/19.png"
+          alt="Social Media Resources"
+          class="h-96 w-full rounded-lg object-cover
+                 transition-transform duration-500 ease-out
+                 group-hover:scale-105"
+        />
+      </div>
+    </div>
+
+
+    <!-- CARD 4 -->
+    <div class="group rounded-lg bg-red-100 p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+        Social Media Marketing 101
+      </h2>
+
+      <p class="mt-2 text-sm text-gray-600">
+        A step-by-step guide for beginners to master social media marketing.
+      </p>
+
+      <div class="mt-5 overflow-hidden rounded-lg">
+        <img
+          src="/images/20.png"
+          alt="Social Media Marketing 101"
+          class="h-40 w-full rounded-lg object-cover
+                 transition-transform duration-500 ease-out
+                 group-hover:scale-105"
+        />
+      </div>
+    </div>
+
+
+    <!-- CARD 5 -->
+    <div class="group col-span-2 rounded-lg bg-purple-100 p-4">
+      <h2 class="text-lg font-semibold text-gray-900">
+        Best Time To Post
+      </h2>
+
+      <p class="mt-2 text-sm text-gray-600">
+        Discover the best times to post on social media to maximize your
+        engagement.
+      </p>
+
+      <div class="mt-5 overflow-hidden rounded-lg">
+        <img
+          src="/images/21.png"
+          alt="Best Time To Post"
+          class="h-40 w-full rounded-lg object-cover
+                 transition-transform duration-500 ease-out
+                 group-hover:scale-105"
+        />
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT US -->
+<section class="mt-16 bg-[#fdfcfb] px-6 py-16 md:px-20">
+
+  <!-- about company -->
+  <div class="flex flex-col justify-between gap-8 md:flex-row">
+
+    <div>
+      <p class="text-sm font-medium tracking-wide text-[#263b39]">
+        ABOUT US
+      </p>
+
+      <h1 class="mt-5 text-4xl font-normal text-[#263b39] md:text-5xl">
+        We are an open company
+      </h1>
+
+      <p class="mt-4 max-w-2xl text-lg leading-7 text-[#263b39]">
+        Since 2013, we’ve shared Buffer’s finances, team salaries, and other key
+        metrics openly. Our commitment to transparency is rooted in our belief
+        that it fosters trust, keeps us accountable, and helps drive positive
+        change within our industry.
+      </p>
+    </div>
+
+    <!-- dashboard button -->
+    <div class="mt-16 shrink-0 md:mt-16">
+      <button
+        class="flex items-center gap-3 rounded-full border border-[#263b39]
+               px-6 py-5 text-lg text-[#263b39]
+               transition hover:bg-[#263b39] hover:text-white"
+      >
+        Open dashboard
+        <span class="text-2xl">→</span>
+      </button>
+    </div>
+
+  </div>
+
+
+  <!-- STATS CARDS -->
+  <div class="mt-16 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+
+    <!-- MAU -->
+    <div
+      class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm
+             transition-transform duration-300 ease-out
+             hover:scale-105"
+    >
+      <h2 class="text-base font-medium text-[#263b39]">
+        MAU
+      </h2>
+
+      <p class="mt-1 text-base text-gray-600">
+        Monthly active users
+      </p>
+
+      <p class="mt-9 text-3xl font-normal text-[#263b39]">
+        266,274
+      </p>
+    </div>
+
+
+    <!-- CUSTOMERS -->
+    <div
+      class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm
+             transition-transform duration-300 ease-out
+             hover:scale-105"
+    >
+      <h2 class="text-base font-medium text-[#263b39]">
+        Total customers
+      </h2>
+
+      <p class="mt-1 text-base text-gray-600">
+        Total customers
+      </p>
+
+      <p class="mt-9 text-3xl font-normal text-[#263b39]">
+        81,384
+      </p>
+    </div>
+
+
+    <!-- TEAMMATES -->
+    <div
+      class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm
+             transition-transform duration-300 ease-out
+             hover:scale-105"
+    >
+      <h2 class="text-base font-medium text-[#263b39]">
+        Teammates
+      </h2>
+
+      <p class="mt-1 text-base text-gray-600">
+        Across 15 countries
+      </p>
+
+      <p class="mt-9 text-3xl font-normal text-[#263b39]">
+        73
+      </p>
+    </div>
+
+
+    <!-- ARR -->
+    <div
+      class="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm
+             transition-transform duration-300 ease-out
+             hover:scale-105"
+    >
+      <h2 class="text-base font-medium text-[#263b39]">
+        ARR
+      </h2>
+
+      <p class="mt-1 text-base text-gray-600">
+        Annual recurring revenue
+      </p>
+
+      <p class="mt-9 text-3xl font-normal text-[#263b39]">
+        $26.6M
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="mt-24 px-4">
+  <div class="mx-auto max-w-8xl rounded-2xl border border-gray-200 bg-white p-2 shadow-sm">
+    <div class="flex min-h-[420px] flex-col items-center justify-center rounded-xl bg-[#ACE89A] px-6 py-16 text-center">
+
+      <h1 class="mb-8 text-4xl font-normal leading-tight text-[#263238] sm:text-5xl">
+        Grow your social<br class="hidden sm:block" />
+        presence with confidence
+      </h1>
+
+      <a
+        href="#"
+        class="inline-flex items-center gap-3 rounded-full bg-[#243F3F] px-8 py-4 text-base font-medium text-white transition duration-300 hover:bg-[#1B3232]"
+      >
+        Get started for free
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="1.8"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M5 12h14m-7-7 7 7-7 7"
+          />
+        </svg>
+      </a>
+
+      <p class="mt-9 text-base text-[#263238] sm:text-lg">
+        No credit card needed. Free forever.
+      </p>
+
+    </div>
+  </div>
+</section>
+<section class="mt-20 bg-[#1C302E] px-6 py-12 text-white sm:px-10 lg:px-16">
+
+  <div class="mx-auto max-w-7xl">
+
+    <!-- Footer Links -->
+    <div class="grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
+
+      <!-- Product -->
+      <div>
+        <h3 class="mb-4 text-sm font-semibold text-[#A8E88F]">Product</h3>
+        <ul class="space-y-3 text-xs text-gray-300">
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Social Media</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Publishing</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Community</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Analytics</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Engagement</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">AI Assistant</a></li>
+        </ul>
+
+        <h3 class="mb-4 mt-7 text-sm font-semibold text-[#A8E88F]">Tools</h3>
+        <ul class="space-y-3 text-xs text-gray-300">
+          <li><a href="#" class="transition hover:text-[#A8E88F]">AI Assistant</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Content Calendar</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Browser Extension</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Link in Bio</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Start Page</a></li>
+        </ul>
+      </div>
+
+      <!-- Channels -->
+      <div>
+        <h3 class="mb-4 text-sm font-semibold text-[#A8E88F]">Channels</h3>
+        <ul class="space-y-3 text-xs text-gray-300">
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Instagram</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Facebook</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Google Business Profile</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">LinkedIn</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Pinterest</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">TikTok</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">YouTube</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Threads</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Bluesky</a></li>
+        </ul>
+      </div>
+
+      <!-- Made For -->
+      <div>
+        <h3 class="mb-4 text-sm font-semibold text-[#A8E88F]">Made for</h3>
+        <ul class="space-y-3 text-xs text-gray-300">
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Agencies</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Creators</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Small Business</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Digital Marketers</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Nonprofits</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Social Managers</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Startups</a></li>
+        </ul>
+      </div>
+
+      <!-- Resources -->
+      <div>
+        <h3 class="mb-4 text-sm font-semibold text-[#A8E88F]">Resources</h3>
+        <ul class="space-y-3 text-xs text-gray-300">
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Blog</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Social Media Resources</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Business & Growth</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Social Media Guides</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Marketing</a></li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div>
+        <h3 class="mb-4 text-sm font-semibold text-[#A8E88F]">Support</h3>
+        <ul class="space-y-3 text-xs text-gray-300">
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Knowledge Base</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Instagram Tools</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Help Center</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Request a Feature</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Status</a></li>
+        </ul>
+
+        <h3 class="mb-4 mt-7 text-sm font-semibold text-[#A8E88F]">For Agencies</h3>
+        <ul class="space-y-3 text-xs text-gray-300">
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Agency Hub</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Facebook & Instagram</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Management Platform</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Partner Program</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Management Software</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h3 class="mb-4 text-sm font-semibold text-[#A8E88F]">Company</h3>
+        <ul class="space-y-3 text-xs text-gray-300">
+          <li><a href="#" class="transition hover:text-[#A8E88F]">About</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Careers</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Legal</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Press & Programs</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Press</a></li>
+          <li><a href="#" class="transition hover:text-[#A8E88F]">Diversity</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Newsletter -->
+    <div class="mt-12 border-y border-white/20 py-5">
+      <a href="#" class="inline-flex items-center gap-2 text-xs font-semibold text-[#A8E88F] hover:underline">
+        Get the latest social media news
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 18 6-6-6-6" />
+        </svg>
+      </a>
+
+      <p class="mt-3 max-w-2xl text-xs leading-5 text-gray-300">
+        Get the latest social media tips, insights, and updates delivered straight to your inbox.
+      </p>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="mt-10 flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
+
+      <!-- Logo -->
+      <a href="#" class="inline-flex items-center gap-3 self-start">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="h-12 w-12 shrink-0" fill="#A8E88F">
+          <path d="M24 2 46 13 24 24 2 13 24 2Z" />
+          <path d="m2 22 22 11 22-11v7L24 40 2 29v-7Z" />
+          <path d="m2 34 22 11 22-11v6L24 51 2 40v-6Z" transform="translate(0 -5)" />
+        </svg>
+
+        <span class="text-4xl font-bold tracking-tight text-[#A8E88F]">
+          Buffer
+        </span>
+      </a>
+
+      <!-- Socials and Copyright -->
+      <div class="flex flex-col gap-5 sm:items-end">
+
+        <!-- Language -->
+        <button class="inline-flex items-center gap-2 self-start text-xs text-gray-300 transition hover:text-[#A8E88F] sm:self-end">
+          <span class="text-[#A8E88F]">◎</span>
+          English
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9 6 6 6-6" />
+          </svg>
+        </button>
+
+        <!-- Social Media Icons -->
+        <div class="flex items-center gap-4 text-gray-300">
+
+          <a href="#" aria-label="Instagram" class="transition hover:text-[#A8E88F]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+              <rect width="18" height="18" x="3" y="3" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="18" cy="6" r="1" fill="currentColor" />
+            </svg>
+          </a>
+
+          <a href="#" aria-label="Facebook" class="transition hover:text-[#A8E88F]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4Z" />
+            </svg>
+          </a>
+
+          <a href="#" aria-label="Twitter" class="transition hover:text-[#A8E88F]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22 5.9a8 8 0 0 1-2.4.7 4.2 4.2 0 0 0 1.8-2.3 8.2 8.2 0 0 1-2.7 1 4.1 4.1 0 0 0-7 3.7A11.7 11.7 0 0 1 3.2 4.8a4.1 4.1 0 0 0 1.3 5.5 4 4 0 0 1-1.9-.5v.1a4.1 4.1 0 0 0 3.3 4 4.2 4.2 0 0 1-1.9.1 4.1 4.1 0 0 0 3.8 2.8A8.3 8.3 0 0 1 2 18.5a11.7 11.7 0 0 0 18-9.9v-.5A8.4 8.4 0 0 0 22 5.9Z" />
+            </svg>
+          </a>
+
+          <a href="#" aria-label="X" class="transition hover:text-[#A8E88F]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-5-7.5L5.4 22H2.2l7.3-8.4L1.8 2h6.5l4.5 6.9L18.9 2Zm-1.1 17.9h1.7L7.3 4H5.5l12.3 15.9Z" />
+            </svg>
+          </a>
+
+          <a href="#" aria-label="LinkedIn" class="transition hover:text-[#A8E88F]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.4 3H3.6A.6.6 0 0 0 3 3.6v16.8c0 .3.3.6.6.6h16.8a.6.6 0 0 0 .6-.6V3.6a.6.6 0 0 0-.6-.6ZM8.7 18H5.8V9.3h2.9V18ZM7.2 8.1a1.7 1.7 0 1 1 0-3.4 1.7 1.7 0 0 1 0 3.4ZM18 18h-2.9v-4.2c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2V18H9.2V9.3H12v1.2h.1a3 3 0 0 1 2.7-1.5c2.9 0 3.4 1.9 3.4 4.3V18Z" />
+            </svg>
+          </a>
+
+          <a href="#" aria-label="YouTube" class="transition hover:text-[#A8E88F]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23 7a3 3 0 0 0-2.1-2.1C19 4.4 12 4.4 12 4.4s-7 0-8.9.5A3 3 0 0 0 1 7a31 31 0 0 0-.5 5 31 31 0 0 0 .5 5 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5A3 3 0 0 0 23 17a31 31 0 0 0 .5-5 31 31 0 0 0-.5-5ZM9.6 15.5v-7l6 3.5-6 3.5Z" />
+            </svg>
+          </a>
+
+        </div>
+
+        <p class="text-xs text-gray-400">
+          Copyright © 2026 Buffer. All rights reserved.
+          <a href="#" class="transition hover:text-[#A8E88F]">Privacy</a>
+          |
+          <a href="#" class="transition hover:text-[#A8E88F]">Terms</a>
+          |
+          <a href="#" class="transition hover:text-[#A8E88F]">Security</a>
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+</body>
+</html>
